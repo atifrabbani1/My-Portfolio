@@ -13,7 +13,7 @@ $(document).ready(function () {
 });
 $("#profile-btn").on("click", function () {
     event.preventDefault();
-    $("#profile").show();
+    $("#profile").slideDown("slow");
     $("#resume").hide();
     $("#portfolio").hide();
     $("#contact").hide();
@@ -22,7 +22,7 @@ $("#profile-btn").on("click", function () {
 $("#resume-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
-    $("#resume").show();
+    $("#resume").slideDown("slow");
     $("#portfolio").hide();
     $("#contact").hide();
 })
@@ -30,7 +30,7 @@ $("#portfolio-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
     $("#resume").hide();
-    $("#portfolio").show();
+    $("#portfolio").slideDown("slow");
     $("#contact").hide();
 })
 $("#contact-btn").on("click", function () {
@@ -38,6 +38,6 @@ $("#contact-btn").on("click", function () {
     $("#profile").hide();
     $("#resume").hide();
     $("#portfolio").hide();
-    $("#contact").show();
+    $("#contact").slideDown("slow");
 })
 $(".tabs").tabs('swipeable', true);
