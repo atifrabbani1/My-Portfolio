@@ -1,0 +1,90 @@
+#profile, #resume, #contact{
+    margin-bottom: 75px;
+}
+.main{
+    margin-top: 125px;
+}
+.brand-logo{
+    font-family: cursive
+}
+.tab:hover{
+    background: rgb(92, 113, 235);
+}
+.page-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    z-index: 1;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h5{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.text{
+    color: white;
+    font-weight: 500;
+}
+li{
+    list-style-type: disc;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.skills{
+    font-weight: bold;
+    
+}
+.images img:hover{
+    border: 5px solid rgb(92, 113, 235);
+}
+h4{
+    text-align: center;
+}
+.modalAccept, .modalAccept:visited{
+    background-color: black;
+}
+.modalAccept:hover{
+    background-color: rgb(92, 113, 235);
+}
+input:focus{
+    border-bottom: 1px solid rgb(92, 113, 235);
+    box-shadow: 0 1px 0 0 rgb(92, 113, 235);
+}
+input[type=email]:not(.browser-default):focus:not([readonly]), 
+input[type=text]:not(.browser-default):focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid rgb(92, 113, 235);
+    box-shadow: 0 1px 0 0 rgb(92, 113, 235);
+}
+input[type=email]:not(.browser-default):focus:not([readonly])+label, 
+input[type=text]:not(.browser-default):focus:not([readonly])+label, 
+textarea.materialize-textarea:focus:not([readonly])+label{
+    color: rgb(92, 113, 235);
+}
+#submit1, #submit1:focus{
+    background-color: rgb(92, 113, 235);
+    
+}
+#submit1:hover{
+    background-color: rgb(70, 90, 204);
+    
+}
+.profiles{
+    color: white;
+}
+.social img{
+    background-color: white;
+}
+.social:hover img{
+    background-color: rgb(70, 90, 204);
+}
