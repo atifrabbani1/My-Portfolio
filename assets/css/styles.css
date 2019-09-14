@@ -77,6 +77,7 @@ textarea.materialize-textarea:focus:not([readonly])+label{
 }
 #submit1:hover{
     background-color: rgb(70, 90, 204);
+    border: 2px solid black;
     
 }
 .profiles{
@@ -87,4 +88,14 @@ textarea.materialize-textarea:focus:not([readonly])+label{
 }
 .social:hover img{
     background-color: rgb(70, 90, 204);
+    border: 2px solid black;
+}
+.resume{
+    text-align: center;
+    text-decoration: underline;
+}
+.resume a:hover{
+    color: red;
+    border: 2px solid black;
+    font-weight: bold;
 }
