@@ -10,14 +10,14 @@ $("#profile-btn").on("click", function () {
     $("#resume").hide();
     $("#portfolio").hide();
     $("#contact").hide();
-    $("#profile").fadeIn(3000);
+    $("#profile").fadeIn(2000);
 })
 $("#resume-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
     $("#portfolio").hide();
     $("#contact").hide();
-    $("#resume").fadeIn(3000);
+    $("#resume").fadeIn(2000);
     
 })
 $("#portfolio-btn").on("click", function () {
@@ -25,14 +25,14 @@ $("#portfolio-btn").on("click", function () {
     $("#profile").hide();
     $("#resume").hide();
     $("#contact").hide();
-    $("#portfolio").fadeIn(3000);
+    $("#portfolio").fadeIn(2000);
 })
 $("#contact-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
     $("#resume").hide();
     $("#portfolio").hide();
-    $("#contact").fadeIn(3000);
+    $("#contact").fadeIn(2000);
 })
 //$(".tabs").tabs('swipeable', true);
 
