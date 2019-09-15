@@ -44,7 +44,7 @@ li{
 .skills{
     font-weight: bold;
 }
-.images img:hover{
+.images a img:hover{
     border: 5px solid rgb(92, 113, 235);
 }
 h4{
@@ -101,4 +101,17 @@ textarea.materialize-textarea:focus:not([readonly])+label{
 }
 .progress{
     background-color: white;
+}
+.images a{
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.images a:hover{
+    color: rgb(70, 90, 204);
+}
+.images a div{
+    text-align: center;
 }
