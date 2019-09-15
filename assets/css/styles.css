@@ -47,6 +47,21 @@ li{
 .images a img:hover{
     border: 5px solid rgb(92, 113, 235);
 }
+.images a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.images a:hover{
+    color: rgb(70, 90, 204);
+}
+.images a div{
+    text-align: center;
+}
+.images a img{
+    margin-right: 100px;
+}
 h4{
     text-align: center;
 }
@@ -101,17 +116,10 @@ textarea.materialize-textarea:focus:not([readonly])+label{
 }
 .progress{
     background-color: white;
+    border-radius: 15px;
 }
-.images a{
-    margin-right: 10px;
+.text{
+    margin-left: 10px;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-    text-decoration: underline;
-}
-.images a:hover{
-    color: rgb(70, 90, 204);
-}
-.images a div{
-    text-align: center;
 }

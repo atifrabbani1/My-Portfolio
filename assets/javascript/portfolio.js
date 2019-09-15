@@ -5,13 +5,15 @@ $(document).ready(function () {
     $("#contact").hide();
     $('.images').slick({
         dots: true,
+        initialSlide:1,
         infinite: true,
         speed: 300,
         slidesToShow: 2,
         slidesToScroll: 2,
         adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 1000,
+        
     });
     $('.modal').modal();
 });
