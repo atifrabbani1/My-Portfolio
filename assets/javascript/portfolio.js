@@ -4,15 +4,13 @@ $(document).ready(function () {
     $("#portfolio").hide();
     $("#contact").hide();
     $('.images').slick({
-        dots: true,
         initialSlide:1,
         infinite: true,
-        speed: 300,
+        speed: 2000,
         slidesToShow: 2,
         slidesToScroll: 2,
-        adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         
     });
     $('.modal').modal();
