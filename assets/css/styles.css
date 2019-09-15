@@ -92,7 +92,7 @@ textarea.materialize-textarea:focus:not([readonly]){
 input[type=email]:not(.browser-default):focus:not([readonly])+label, 
 input[type=text]:not(.browser-default):focus:not([readonly])+label, 
 textarea.materialize-textarea:focus:not([readonly])+label, input[type=text]:not(.browser-default).validate+label,
-input[type=email]:not(.browser-default).validate+label, .input-field>label:not(.label-icon).active{
+input[type=email]:not(.browser-default).validate+label, .input-field>label:not(.label-icon).active, .input-field>label{
     color: rgb(92, 113, 235);
     background: transparent;
 }
@@ -218,8 +218,8 @@ input.valid[type=text]:not(.browser-default), input.valid[type=email]:not(.brows
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active, .dot:hover{
+  background-color: rgb(70, 90, 204);
 }
 
 /* Fading animation */
