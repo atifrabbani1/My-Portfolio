@@ -13,31 +13,30 @@ $(document).ready(function () {
 });
 $("#profile-btn").on("click", function () {
     event.preventDefault();
-    $("#profile").slideDown("slow");
     $("#resume").hide();
     $("#portfolio").hide();
     $("#contact").hide();
-
+    $("#profile").fadeIn(2000);
 })
 $("#resume-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
-    $("#resume").slideDown("slow");
     $("#portfolio").hide();
     $("#contact").hide();
+    $("#resume").fadeIn(2000);
 })
 $("#portfolio-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
     $("#resume").hide();
-    $("#portfolio").slideDown("slow");
     $("#contact").hide();
+    $("#portfolio").fadeIn(2000);
 })
 $("#contact-btn").on("click", function () {
     event.preventDefault();
     $("#profile").hide();
     $("#resume").hide();
     $("#portfolio").hide();
-    $("#contact").slideDown("slow");
+    $("#contact").fadeIn(2000);
 })
 $(".tabs").tabs('swipeable', true);
