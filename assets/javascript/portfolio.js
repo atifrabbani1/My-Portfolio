@@ -4,10 +4,15 @@ $(document).ready(function () {
     $("#portfolio").hide();
     $("#contact").hide();
     $('.images').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
+        
     });
     $('.modal').modal();
 });
