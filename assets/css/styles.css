@@ -118,6 +118,9 @@ input.valid[type=text]:not(.browser-default), input.valid[type=email]:not(.brows
     background-color: rgb(70, 90, 204);
     border: 2px solid black;
 }
+.social:hover a{
+    text-decoration: underline;
+}
 .resume{
     text-align: center;
     text-decoration: underline;
