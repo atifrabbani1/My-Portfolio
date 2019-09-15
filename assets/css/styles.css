@@ -55,7 +55,7 @@ li{
     border: 5px solid rgb(92, 113, 235);
 }
 .images a{
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
@@ -92,6 +92,7 @@ input[type=email]:not(.browser-default):focus:not([readonly])+label,
 input[type=text]:not(.browser-default):focus:not([readonly])+label, 
 textarea.materialize-textarea:focus:not([readonly])+label{
     color: rgb(92, 113, 235);
+    background: transparent;
 }
 #submit1, #submit1:focus{
     background-color: rgb(92, 113, 235);
@@ -125,7 +126,7 @@ textarea.materialize-textarea:focus:not([readonly])+label{
     background-color: white;
     border-radius: 15px;
 }
-.text{
+.skilltext{
     margin-left: 10px;
     color: black;
     font-weight: bold;
@@ -243,7 +244,5 @@ textarea.materialize-textarea:focus:not([readonly])+label{
   .skills {  
     /* This section calls the slideInFromLeft animation we defined above */
     animation: 2s ease-out 0s 1 slideInFromLeft;
-    background: #333;
-    
+    background: #333; 
   }
-  
