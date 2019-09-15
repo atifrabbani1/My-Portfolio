@@ -87,12 +87,17 @@ input[type=text]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]){
     border-bottom: 1px solid rgb(92, 113, 235);
     box-shadow: 0 1px 0 0 rgb(92, 113, 235);
+    color: white;
 }
 input[type=email]:not(.browser-default):focus:not([readonly])+label, 
 input[type=text]:not(.browser-default):focus:not([readonly])+label, 
-textarea.materialize-textarea:focus:not([readonly])+label{
+textarea.materialize-textarea:focus:not([readonly])+label, input[type=text]:not(.browser-default).validate+label,
+input[type=email]:not(.browser-default).validate+label, .input-field>label:not(.label-icon).active{
     color: rgb(92, 113, 235);
     background: transparent;
+}
+input.valid[type=text]:not(.browser-default), input.valid[type=email]:not(.browser-default), textarea.materialize-textarea{
+    color: white;
 }
 #submit1, #submit1:focus{
     background-color: rgb(92, 113, 235);
