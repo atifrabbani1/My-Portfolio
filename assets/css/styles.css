@@ -4,6 +4,11 @@
 #portfolio{
     overflow: hidden;
 }
+.contact-main{
+    padding-right: 40px;
+    padding-left: 40px;
+    overflow: hidden;
+}
 .main{
     margin-top: 125px;
 }
@@ -113,6 +118,8 @@ input.valid[type=text]:not(.browser-default), input.valid[type=email]:not(.brows
 }
 .profiles{
     color: white;
+    position: relative;
+    left: 100px;
 }
 .social img{
     background-color: white;
