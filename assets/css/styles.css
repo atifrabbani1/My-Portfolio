@@ -1,6 +1,9 @@
 #profile, #resume, #contact{
     margin-bottom: 75px;
 }
+#portfolio{
+    overflow: hidden;
+}
 .main{
     margin-top: 125px;
 }
