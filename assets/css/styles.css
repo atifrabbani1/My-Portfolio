@@ -3,6 +3,8 @@
 }
 #portfolio{
     overflow-x: hidden;
+    position: relative;
+    bottom: 25px;
 }
 .main{
     margin-top: 125px;
