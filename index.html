@@ -209,6 +209,14 @@
                         <div class="caption1">Train Scheduler</div>
                     </a>
                 </div>
+
+                <div class="mySlides fade"><a class="modal-trigger" href="#modal9">
+                        <div class="numbertext">9 / 10</div>
+                        <img src="assets/images/Flight-Plan.PNG" style="width:100%" height="250px;">
+                        <div class="caption1">Flight Plan</div>
+                    </a>
+                </div>
+
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal10">
                         <div class="numbertext">10 / 10</div>
                         <img src="assets/images/LIRI-Bot.GIF" style="width:100%" height="250px;">
@@ -232,6 +240,7 @@
                 <span class="dot" onclick="currentSlide(6)"></span>
                 <span class="dot" onclick="currentSlide(7)"></span>
                 <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
                 <span class="dot" onclick="currentSlide(10)"></span>
             </div>
             <div id="modal1" class="modal">
@@ -394,6 +403,41 @@
                     <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
                 </div>
             </div>
+            <div id="modal9" class="modal">
+                <div class="modal-content">
+                    <h4>Flight Plan</h4>
+                    <p>The goal of the project was to create a website that will find the cheapest flight from the
+                        user's origin, to their destination, as well as finding events in the area of their destination
+                        for the duration of their trip.</p>
+                    <p>
+                        The SkyScanner API is the API that was used to determine the cheapest flight from the origin to
+                        the destination, with the departing flight being set on the user provided start date, and the
+                        return flight being set on the user provided end date.
+
+                        Once the submit button is selected, an additional API call is then made to Eventbrite to
+                        retrieve events taking place during the duration of the user's trip, in the destination city
+                        that they provided. 50 events are returned containing a varitety of categories, if the user
+                        wishes to see more events, they can click the "Check For More Events" button. This will perform
+                        an additional API call to Eventbrite for the next 50 events.</p>
+                    <p> Technologies Used:</p>
+                    <ul>
+                        <li> Materialize for CSS</li>
+                        <li> Tablesorter.js</li>
+                        <li>Jquery</li>
+                        <li>Google Icons and Fonts api</li>
+                        <li>SkyScanner API</li>
+                        <li>Eventbrite API</li>
+                        <li>Heroku CORS-proxy</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://atifrabbani1.github.io/Flight-Plan/" target="_blank"
+                        class="waves-effect waves-green btn modalAccept">Website</a>
+                    <a href="https://github.com/atifrabbani1/Flight-Plan" target="_blank"
+                        class="waves-effect waves-green btn modalAccept">Code</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
+                </div>
+            </div>
             <div id="modal10" class="modal">
                 <div class="modal-content">
                     <h4>LIRI Bot</h4>
@@ -409,20 +453,21 @@
                         of concert with the respect to the artist name. We have created separate functions for spotify,
                         OMDB and Bands in town to call when correct parameters are given in git bash. We have also
                         included the command do-what-it-says, that will read the random.txt file and will run the
-                        correct command with respective to the text inside the file.
+                        correct command with respective to the text inside the file.</p>
 
-                        HOW TO USE: Open the liri-node-app folder in git bash. To access the liri.js file type 'node
+                    <p> HOW TO USE: Open the liri-node-app folder in git bash. To access the liri.js file type 'node
                         liri' in git bash and then the command (spotify-this-song, movie-this, concert-this or
                         do-what-it-says) For example: Type 'node liri spotify-this-song Despacito' and it will pull up
                         all the setails of the song Despacito. Song Name, Artist Name, Album Name and a preview song
-                        link.
-                        WORKING PROJECT: LIRI Bot.PNG file is included in the github repo folder.
+                        link.</p>
+                    <p> WORKING PROJECT: LIRI Bot.PNG file is included in the github repo folder.</p>
 
-                        TECHNOLOGIES USED: Node JS, AXIOS, API, JSON.
+                    <p> TECHNOLOGIES USED: Node JS, AXIOS, API, JSON.</p>
 
-                        MY ROLE: This app is solely developed by me from start to end.
+                    <p> MY ROLE: This app is solely developed by me from start to end.</p>
 
-                        NOTE: This is a CLI App so it cannot be deployed to Github Pages. So no Website for this app.
+                    <p> NOTE: This is a CLI App so it cannot be deployed to Github Pages. So no Website for this app.
+                    </p>
                     </p>
                 </div>
                 <div class="modal-footer">
