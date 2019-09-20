@@ -155,58 +155,64 @@
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal1">
-                        <div class="numbertext">1 / 8</div>
+                        <div class="numbertext">1 / 10</div>
                         <img src="assets/images/Psychic-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Psychic Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal2">
-                        <div class="numbertext">2 / 8</div>
+                        <div class="numbertext">2 / 10</div>
                         <img src="assets/images/Word-Guess-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Word Guess Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal3">
-                        <div class="numbertext">3 / 8</div>
+                        <div class="numbertext">3 / 10</div>
                         <img src="assets/images/Crystal-Collector-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Crystal Collector Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal4">
-                        <div class="numbertext">4 / 8</div>
+                        <div class="numbertext">4 / 10</div>
                         <img src="assets/images/Star-Wars-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Star Wars Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal5">
-                        <div class="numbertext">5 / 8</div>
+                        <div class="numbertext">5 / 10</div>
                         <img src="assets/images/Trivia-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Trivia Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal6">
-                        <div class="numbertext">6 / 8</div>
+                        <div class="numbertext">6 / 10</div>
                         <img src="assets/images/Trivia-Game-Timed-Questions.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Trivia Game Timed Questions</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal7">
-                        <div class="numbertext">7 / 8</div>
+                        <div class="numbertext">7 / 10</div>
                         <img src="assets/images/GifTastic.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Giftastic</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal8">
-                        <div class="numbertext">8 / 8</div>
+                        <div class="numbertext">8 / 10</div>
                         <img src="assets/images/Train-Scheduler.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Train Scheduler</div>
+                    </a>
+                </div>
+                <div class="mySlides fade"><a class="modal-trigger" href="#modal10">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="assets/images/LIRI-Bot.GIF" style="width:100%" height="250px;">
+                        <div class="caption1">LIRI Bot</div>
                     </a>
                 </div>
 
@@ -226,6 +232,7 @@
                 <span class="dot" onclick="currentSlide(6)"></span>
                 <span class="dot" onclick="currentSlide(7)"></span>
                 <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
             </div>
             <div id="modal1" class="modal">
                 <div class="modal-content">
@@ -387,6 +394,43 @@
                     <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
                 </div>
             </div>
+            <div id="modal10" class="modal">
+                <div class="modal-content">
+                    <h4>LIRI Bot</h4>
+                    <p>This Liri app is created to take command from users and produce the result. The main purpose of
+                        this app to show the information related to any movie, song and concert.</p>
+                    <p>
+                        OVERVIEW: We have used node-spotify-api file to fetch the song detail requested by user. We have
+                        created a separate key.js file to export spotify ID and spotify secret code to access the
+                        spotify api. Then we have .env file where we have stored the SPOTIFY_ID and SPOTIFY_SECRET
+                        values. key.js is linked to .env file and later key.js file is being used to pull the ID and
+                        Secret by liri.js to fetch the song details result. Then we have used OMDB API to fetch the
+                        details of movies requested by users. We have also used Bands in Town API to fetch the details
+                        of concert with the respect to the artist name. We have created separate functions for spotify,
+                        OMDB and Bands in town to call when correct parameters are given in git bash. We have also
+                        included the command do-what-it-says, that will read the random.txt file and will run the
+                        correct command with respective to the text inside the file.
+
+                        HOW TO USE: Open the liri-node-app folder in git bash. To access the liri.js file type 'node
+                        liri' in git bash and then the command (spotify-this-song, movie-this, concert-this or
+                        do-what-it-says) For example: Type 'node liri spotify-this-song Despacito' and it will pull up
+                        all the setails of the song Despacito. Song Name, Artist Name, Album Name and a preview song
+                        link.
+                        WORKING PROJECT: LIRI Bot.PNG file is included in the github repo folder.
+
+                        TECHNOLOGIES USED: Node JS, AXIOS, API, JSON.
+
+                        MY ROLE: This app is solely developed by me from start to end.
+
+                        NOTE: This is a CLI App so it cannot be deployed to Github Pages. So no Website for this app.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/atifrabbani1/liri-node-app" target="_blank"
+                        class="waves-effect waves-green btn modalAccept">Code</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
+                </div>
+            </div>
 
         </div>
         <div id="contact">
@@ -435,8 +479,7 @@
                         </div>
                         <div class="col s10">
                             GitHub Profile<br>
-                            <a href="https://github.com/atifrabbani1"
-                                target="_blank">github.com/atifrabbani1</a>
+                            <a href="https://github.com/atifrabbani1" target="_blank">github.com/atifrabbani1</a>
                         </div>
                     </div>
                     <div class="row social">
@@ -468,15 +511,16 @@
                     © 2019 Copyright
                 </div>
                 <div class="col s4 row">
-                    <div class="col s3"> <a href="https://www.linkedin.com/in/atif-rabbani-898a1998/" target="_blank"><img
-                                src="assets/images/linkedin.png" alt="Linkedin Image" height="25px" width="20px"
-                                 class="footicon"> </a></div>
-                    <div class="col s3"> <a href="https://github.com/atifrabbani1" target="_blank"> <img src="assets/images/github.png"
-                                alt="Github Image" height="25px" width="20px" class="footicon"></a></div>
-                    <div class="col s3"> <a href="mailto:atifrabbani1@yahoo.com"><img src="assets/images/email.png" alt="Email Image"
+                    <div class="col s3"> <a href="https://www.linkedin.com/in/atif-rabbani-898a1998/"
+                            target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Image" height="25px"
+                                width="20px" class="footicon"> </a></div>
+                    <div class="col s3"> <a href="https://github.com/atifrabbani1" target="_blank"> <img
+                                src="assets/images/github.png" alt="Github Image" height="25px" width="20px"
+                                class="footicon"></a></div>
+                    <div class="col s3"> <a href="mailto:atifrabbani1@yahoo.com"><img src="assets/images/email.png"
+                                alt="Email Image" height="25px" width="20px" class="footicon"></a></div>
+                    <div class="col s3"> <a href="tel:+17044491203"><img src="assets/images/phone.png" alt="Email Image"
                                 height="25px" width="20px" class="footicon"></a></div>
-                    <div class="col s3"> <a href="tel:+17044491203"><img src="assets/images/phone.png" alt="Email Image" height="25px"
-                                width="20px" class="footicon"></a></div>
                 </div>
                 <div class="col s4">
                     <a class="white-text right" href="https://atifrabbani1.github.io/My-Portfolio/">Atif Rabbani</a>
