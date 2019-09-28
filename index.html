@@ -155,72 +155,79 @@
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal1">
-                        <div class="numbertext">1 / 10</div>
+                        <div class="numbertext">1 / 11</div>
                         <img src="assets/images/Psychic-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Psychic Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal2">
-                        <div class="numbertext">2 / 10</div>
+                        <div class="numbertext">2 / 11</div>
                         <img src="assets/images/Word-Guess-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Word Guess Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal3">
-                        <div class="numbertext">3 / 10</div>
+                        <div class="numbertext">3 / 11</div>
                         <img src="assets/images/Crystal-Collector-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Crystal Collector Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal4">
-                        <div class="numbertext">4 / 10</div>
+                        <div class="numbertext">4 / 11</div>
                         <img src="assets/images/Star-Wars-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Star Wars Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal5">
-                        <div class="numbertext">5 / 10</div>
+                        <div class="numbertext">5 / 11</div>
                         <img src="assets/images/Trivia-Game.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Trivia Game</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal6">
-                        <div class="numbertext">6 / 10</div>
+                        <div class="numbertext">6 / 11</div>
                         <img src="assets/images/Trivia-Game-Timed-Questions.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Trivia Game Timed Questions</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal7">
-                        <div class="numbertext">7 / 10</div>
+                        <div class="numbertext">7 / 11</div>
                         <img src="assets/images/GifTastic.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Giftastic</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal8">
-                        <div class="numbertext">8 / 10</div>
+                        <div class="numbertext">8 / 11</div>
                         <img src="assets/images/Train-Scheduler.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Train Scheduler</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal9">
-                        <div class="numbertext">9 / 10</div>
+                        <div class="numbertext">9 / 11</div>
                         <img src="assets/images/Flight-Plan.PNG" style="width:100%" height="250px;">
                         <div class="caption1">Flight Plan</div>
                     </a>
                 </div>
 
                 <div class="mySlides fade"><a class="modal-trigger" href="#modal10">
-                        <div class="numbertext">10 / 10</div>
+                        <div class="numbertext">10 / 11</div>
                         <img src="assets/images/LIRI-Bot.gif" style="width:100%" height="250px;">
                         <div class="caption1">LIRI Bot</div>
+                    </a>
+                </div>
+
+                <div class="mySlides fade"><a class="modal-trigger" href="#modal11">
+                        <div class="numbertext">11 / 11</div>
+                        <img src="assets/images/Constructor-Word-Guess.gif" style="width:100%" height="250px;">
+                        <div class="caption1">Constructor Word Guess</div>
                     </a>
                 </div>
 
@@ -242,6 +249,7 @@
                 <span class="dot" onclick="currentSlide(8)"></span>
                 <span class="dot" onclick="currentSlide(9)"></span>
                 <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
             </div>
             <div id="modal1" class="modal">
                 <div class="modal-content">
@@ -472,6 +480,48 @@
                 </div>
                 <div class="modal-footer">
                     <a href="https://github.com/atifrabbani1/liri-node-app" target="_blank"
+                        class="waves-effect waves-green btn modalAccept">Code</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
+                </div>
+            </div>
+            <div id="modal11" class="modal">
+                <div class="modal-content">
+                    <h4>Constructor Word Guess</h4>
+                    <p>This is a Word Guess node JS app which will take the user input as a guess word and will
+                        output the result if the word has been guessed correctly or not.</p>
+                    <p>
+                        OVERVIEW: We have used Node JS Constructor for this app. The letter.js file takes the letter of
+                        the word to check if the correct letter is selected or not and will return true and false as a
+                        result. There is one more methos in this app that will compare the user input with the letters
+                        of the word and will return the word if the correct guess is selected else a underscore will be
+                        returned. We have word.js file that require letter.js file. When the Word constructor recieves a
+                        word as an argument it splits the string into character array. When user inputs the letter it
+                        runs the for loop to the length of character array and call the letter,js guess function to
+                        check for correct letter and recieves the result. And as this recieves the result, it
+                        concatenates the result to be shown on the screen. We have index.js file, this is the main file
+                        where the program initiates. This requires word.js file. It also require inquirer npm to prompt
+                        user for input and colors npm to show Correct answer selected in green and Wrong answer selected
+                        in red. As the program starts the user is asked for input. That input is sent to word .js to
+                        check if this is correct or not and recieves the resulting output on screen. If the guess limit
+                        of 10 is exceeded or correct word is guessed by user, new word is choosen to guess.
+                    </p>
+                    <p> HOW TO USE: Open the Constructor-Word-Guess app in Gitbash. To access the index.js file type
+                        node index.js and hit enter. It will ask you to guess a word. Press any letter and it will
+                        return with the remaining letter to guess and will also show if the guess was correct or wrong.
+                        Once you have guessed the complete word it will generate a new random word and will ask you to
+                        guess.</p>
+                    <p> WORKING PROJECT: Constructor Word Guess.PNG file is included in the github repo folder.</p>
+
+                    <p> TECHNOLOGIES USED: Node JS, Constructor, NPM.</p>
+
+                    <p>MY ROLE: This app is solely developed by me from start to end.</p>
+
+                    <p> NOTE: This is a CLI App so it cannot be deployed to Github Pages. So no Website for this app.
+                    </p>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/atifrabbani1/Constructor-Word-Guess" target="_blank"
                         class="waves-effect waves-green btn modalAccept">Code</a>
                     <a href="#!" class="modal-close waves-effect waves-green btn modalAccept">Close</a>
                 </div>
